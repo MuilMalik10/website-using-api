@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  text-align: center;
+}
+
+header {
+  display: inline;
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-right: 10px solid;
+  border-bottom: 10px solid;
+  border-color: purple;
+  height: 30px;
+  width: 30px;
+  transform: rotate(-135deg);  
+}
+
+.arrow-color {
+  border-color: black;
+}
